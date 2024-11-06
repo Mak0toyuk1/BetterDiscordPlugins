@@ -50,6 +50,7 @@ module.exports = (() => {
 			shown: false,
 			settings: [
 				{ id: "bazinga", name: "Bazinga", type: "switch", value: true },
+				{ id: "yahallo", name: "Yahallo", type: "switch", value: true },
 				{ id: "bruh", name: "Bruh", type: "switch", value: true },
 				{ id: "cheeseburger", name: "Chezburger", type: "switch", value: true },
 				{ id: "hamburger", name: "Hamburger", type: "switch", value: true },
@@ -148,6 +149,7 @@ module.exports = (() => {
 						{re: /🗿/gmi, file: "vineboom.mp3", duration: 1115},
 						{re: /what if/gmi, file: "vsauce.mp3", duration: 7000},
 						{re: /yahoo/gmi, file: "yahoo.mp3", duration: 930},
+						{re: /yahallo/gmi, file: "yahallo.mp3", duration: 2000},
 						{re: /yip?pee/gmi, file: "yippee.mp3", duration: 1000}
 					];
 
